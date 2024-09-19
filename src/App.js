@@ -6,6 +6,7 @@ import Images from './assets/img';
 import Text from './Components/Text';
 import Buttons from './Components/Buttons';
 import Airplane from './Components/Airplane';
+import Footers from './Footers/footers';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         </div>
     </section>
     </div>
+  <Footers />
     </>
   );
 }

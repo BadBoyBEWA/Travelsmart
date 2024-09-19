@@ -68,9 +68,6 @@ cursor: pointer;
     color: #000000;
     font-weight: 200;
 }
-.footer-image{
-    
-}
 .footer-copyright{
     font-size: var(--text-font-size);
     line-height: 15px;

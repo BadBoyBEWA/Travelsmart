@@ -27,11 +27,11 @@
  gap: 230px;
  text-align: left;
  flex-direction:row;
- justify-content: center;
+ margin-left: 80px;
  margin-bottom: 2rem;
 }
 .footer-images{
-    background-image: url(/public/Artboard2.png);
+    background-image:url(/src/img/Artboard.png) ;
     height: 4vh;
     width: 167px;
 }

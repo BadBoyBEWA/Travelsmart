@@ -71,7 +71,6 @@ export default function footers() {
         </div>
         <div className="footer-images"></div>
             </div>
-          
         </div>
     </div>
     </div>

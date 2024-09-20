@@ -413,7 +413,7 @@ ul li a{
   outline: none;
   transition-duration: 0.5s;
   align-items: center;
-}
+}n
 .planbtn:hover{
   box-shadow: 0px 6px 7px 1px rgba(0, 0, 0, 0.2);
   background: linear-gradient(to right, #2189ff, #5AA6FF);
@@ -450,4 +450,63 @@ ul li a{
   height: 24px;
   color: #333;
 }
-
+.peoples-feedback{
+  padding: 20px;
+  box-shadow: 1px 2px 7px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.peoples-feedback:hover{
+  transform: scale(1.06);
+  transition: all .4s ease-in-out;
+  box-shadow: 1px 2px 7px 2px rgba(0, 0, 0, 0.3);
+}
+.staricons{
+  display: flex;
+  color: #0075FF;
+}
+.feedback{
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+.peopleimg{
+  width: 50px;
+  height: 50px;
+}
+.peopleimg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.name{
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.person{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.feed-sec{
+  display: flex;
+  gap: 30px;
+  padding: 10px 0px;
+}
+.feed-tximg{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  cursor: pointer;
+}
+.testimonial{
+  color: black;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding: 50px 0px 0px 0px;
+}

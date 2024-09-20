@@ -18,7 +18,7 @@ function App() {
     <section className='container' id='homepage'>
       <div className='herosec'>
       <div className='herotx'>
-        <div clNnassName='cust-sec'>
+        <div className='cust-sec'>
         <Logo logoimg={Images.img11} logosec='custpic'/><Text texts='100k+ customer' textstyle='customer'/>
         </div>
         <Text texts="Your Trusted All-In-One" textstyle='herotx1' travel="Travel Companion" travelstyle='herotx2'/>

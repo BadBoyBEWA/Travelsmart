@@ -47,7 +47,6 @@ export default function Aboutus() {
           <Airplane airimg={Images.img14}/>
           </div>
         </div>
-        
         <div className='promise-sec'>
           <div>
           <Text texts='Our Promise' textstyle='promisetx'/>

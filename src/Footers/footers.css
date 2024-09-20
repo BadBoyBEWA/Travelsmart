@@ -2,3 +2,129 @@
 *{
     font-family: "Poppins" , sans-serif;
 }
+.footer-links-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    margin:1rem;
+    color: #000000;
+    gap: 18px;
+}
+.footer{
+    margin-bottom: 150px;
+}
+.body-div{
+    background-image: url(/public/herosection.png);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:30vh;
+    width: 100%;
+    border-radius: 19px;
+    display: flex;
+    padding: 0 50px;
+  }
+.footer-links{
+ display: flex;
+ gap: 240px;
+ text-align: left;
+ flex-direction:row;
+ margin-left: 80px;
+ margin-bottom: 2rem;
+}
+.footer-images1{
+    background-image:url(/src/img/Artboard.png) ;
+    height: 4vh;
+    width: 167px;
+}
+.footer-images2{
+    background-image:url(/src/img/Artboard.png) ;
+    height: 4vh;
+    width: 167px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    text-align: left;
+}
+.footer-links-div h4{
+    font-size:var(--header-font-size);
+    line-height:15px;
+    margin-bottom: 0.5rem;
+    font-family: "Poppins" , sans-serif;
+    text-align: left;
+}
+.footer-links-div p{
+font-size: var(--text-font-size);
+line-height: 15px;
+margin:  0.5rem 0;
+cursor: pointer;
+}
+.footer-links-div a{
+    text-decoration: none;
+    text-align: left;
+}
+.footer-below{
+    display: flex;
+    flex-direction: row;
+    gap: 270px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    align-items: center;
+}
+.footer-below-links{
+    display: flex;
+    flex-direction: row;
+}
+.footer-below-links p{
+    font-size: var(--text-font-size);
+    line-height: 15px;
+    margin-left: 2rem;
+    color: #000000;
+    font-weight: 200;
+}
+.footer-copyright{
+    font-size: var(--text-font-size);
+    line-height: 15px;
+    font-weight: bold;
+}
+@media (min-width:300px) and (max-width:520px) {
+    .body-div{
+        background-image: url(/public/herosection.png);
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height:100vh;
+        width: 100%;
+        border-radius: 19px;
+        display: flex;
+        padding: 0 50px;
+      }
+.footer-images1{
+    display: none;
+}
+.footer-links{
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 0px;
+}
+.footer-below{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-left: 0px;
+    
+}
+.footer-below-links{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: -120px;
+}
+.footer-images2{
+    margin-left: -10px;
+}
+}

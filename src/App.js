@@ -12,6 +12,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/tripcatalog' element={<Tripcatalog/>}/>
+      <Route path='/explore/tripcatalog' element={<Tripcatalog/>}/>
       <Route path='/buttons' element={<Buttons/>}/>
       <Route path='/explore' element={<Aboutus/>}/>
     </Routes>

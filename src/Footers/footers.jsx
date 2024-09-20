@@ -8,7 +8,7 @@ export default function footers() {
     <div className='footers'>
         <div className="footers-section-padding">
             <div className="footer-links">
-                <div className='footer-images'></div> 
+                <div className='footer-images1'></div> 
                 <div className='footers-links-div'>
                  <h4>COMMUNITY</h4> 
                  <a href="">
@@ -60,8 +60,7 @@ export default function footers() {
        </div>
        <div className='footer-below'>
         <div className='footer-copyright'>
-            <p>@{new Date(). getFullYear()} All rights reserved.
-            </p>
+        <footer>©2024 All rights reserved.</footer>
         </div>
         <div className="footer-below-links">
             <a href=""><div><p>Terms of Use</p></div></a>
@@ -69,7 +68,7 @@ export default function footers() {
             <a href=""><div><p>Privacy Policy</p></div></a>
             <a href=""><div><p>Sitemap</p></div></a>
         </div>
-        <div className="footer-images"></div>
+        <div className="footer-images2"></div>
             </div>
         </div>
     </div>

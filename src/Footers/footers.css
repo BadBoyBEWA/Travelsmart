@@ -10,6 +10,9 @@
     color: #000000;
     gap: 18px;
 }
+.footer{
+    margin-bottom: 150px;
+}
 .body-div{
     background-image: url(/public/herosection.png);
     background-size: cover;
@@ -20,17 +23,22 @@
     width: 100%;
     border-radius: 19px;
     display: flex;
-    padding: 0px 70px;  
+    padding: 0 50px;
   }
 .footer-links{
  display: flex;
- gap: 230px;
+ gap: 240px;
  text-align: left;
  flex-direction:row;
  margin-left: 80px;
  margin-bottom: 2rem;
 }
-.footer-images{
+.footer-images1{
+    background-image:url(/src/img/Artboard.png) ;
+    height: 4vh;
+    width: 167px;
+}
+.footer-images2{
     background-image:url(/src/img/Artboard.png) ;
     height: 4vh;
     width: 167px;
@@ -60,11 +68,10 @@ cursor: pointer;
 .footer-below{
     display: flex;
     flex-direction: row;
-    gap: 200px;
-    justify-content: center;
-    margin-top: 0.2rem;
+    gap: 270px;
+    margin-bottom: 30px;
+    margin-left: 80px;
     align-items: center;
-    justify-content: center;
 }
 .footer-below-links{
     display: flex;
@@ -81,4 +88,43 @@ cursor: pointer;
     font-size: var(--text-font-size);
     line-height: 15px;
     font-weight: bold;
+}
+@media (min-width:300px) and (max-width:520px) {
+    .body-div{
+        background-image: url(/public/herosection.png);
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height:100vh;
+        width: 100%;
+        border-radius: 19px;
+        display: flex;
+        padding: 0 50px;
+      }
+.footer-images1{
+    display: none;
+}
+.footer-links{
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 0px;
+}
+.footer-below{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-left: 0px;
+    
+}
+.footer-below-links{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: -120px;
+}
+.footer-images2{
+    margin-left: -10px;
+}
 }

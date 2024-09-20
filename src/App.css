@@ -37,7 +37,7 @@ header{
   left: 0;
   right: 0;
 }
-.navbar>.content{
+.navbar .content{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,6 +53,7 @@ header{
   display: flex;
   gap: 20px;
   font-size: 15px;
+  font-weight: 400;
 }
 ul li a{
   text-decoration: none;

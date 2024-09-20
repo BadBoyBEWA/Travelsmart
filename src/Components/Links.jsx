@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-export default function Links({linkstyle, directory1, directory2, directory3, directory4, icon, homelink, link1, link2, link3, link4}) {
+export default function Links({active, linkstyle, about, home, directory3, directory4, icon, link1, link2, link3, link4}) {
   return (
     <ul className={linkstyle}>
-        <li><a href={directory1} className={homelink} icon={icon}>{link1}</a></li>
-        <li><a href={directory2} icon={icon}>{link2}</a></li>
+        <li className={active}><Link to={home}>{link1}</Link></li>
+        <li><Link to={about}>{link2}</Link></li>
         <li><a href={directory3} icon={icon}>{link3}</a></li>
         <li><a href={directory4} icon={icon}>{link4}</a></li>
     </ul>

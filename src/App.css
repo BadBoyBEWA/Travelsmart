@@ -237,8 +237,8 @@ ul li a{
 }
 .bgabouttx{
   font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-size: 85px;
+  font-weight: 600;
+  font-size: 50px;
   color: white;
 }
 .why-sec{
@@ -246,9 +246,9 @@ ul li a{
 }
 .why{
   color: black;
-  font-size: 50px;
+  font-size: 35px;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
 }
 .why-pictx{
@@ -280,19 +280,22 @@ ul li a{
 }
 .why-choose{
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
 }
 .why-choosetx{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
+  color: #474747;
 }
 .chooselink{
   padding: 0px 0px 0px 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  color: #474747;
+  list-style-type: none;
 }
 .works{
   text-align: center;
@@ -304,15 +307,16 @@ ul li a{
 }
 .howhead{
   color: black;
-  font-size: 50px;
+  font-size: 36px;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
 }
 .howtx{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
+  color: #474747;
   text-align: center;
 }
 .howworks{
@@ -325,7 +329,7 @@ ul li a{
   padding: 0px 0px 0px 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 16px;color: #474747;
   list-style-type: none;
 }
 .steps{
@@ -333,10 +337,12 @@ ul li a{
   font-weight: 600;
   font-size: 18px;
   text-align: left;
+  color: black;
   width: 100%;
 }
 .plane{
   font-size: 20px;
+  color: #000000;
 }
 .iconlist{
   display: flex;
@@ -363,25 +369,26 @@ ul li a{
 }
 .promisetx{
   color: black;
-  font-size: 50px;
+  font-size: 35px;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
 }
 .protx{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
   text-align: center;
+  color: #474747;
 }
 .plan-sec{
   padding: 100px 0px;
 }
 .plan-head{
   color: black;
-  font-size: 50px;
+  font-size: 35px;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
 }
 .plan-btn-tx{
@@ -397,7 +404,7 @@ ul li a{
   font-size: 16px;
   background: linear-gradient(to right, #0075FF, #5AA6FF);
   border: none;
-  padding: 10px 30px;
+  padding: 13px 40px;
   border-radius: 20px;
   margin-top: 30px;
   z-index: 1;
@@ -406,11 +413,11 @@ ul li a{
   outline: none;
   transition-duration: 0.5s;
   align-items: center;
-}
+}n
 .planbtn:hover{
   box-shadow: 0px 6px 7px 1px rgba(0, 0, 0, 0.2);
   background: linear-gradient(to right, #2189ff, #5AA6FF);
-  padding: 10px 35px;
+  padding: 13px 45px;
 }
 .planlink{
   color: white;
@@ -420,6 +427,7 @@ ul li a{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 17px;
+  color: #474747;
   text-align: center;
 }
 .navbar.scrolled {
@@ -442,4 +450,63 @@ ul li a{
   height: 24px;
   color: #333;
 }
-
+.peoples-feedback{
+  padding: 20px;
+  box-shadow: 1px 2px 7px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.peoples-feedback:hover{
+  transform: scale(1.06);
+  transition: all .4s ease-in-out;
+  box-shadow: 1px 2px 7px 2px rgba(0, 0, 0, 0.3);
+}
+.staricons{
+  display: flex;
+  color: #0075FF;
+}
+.feedback{
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+.peopleimg{
+  width: 50px;
+  height: 50px;
+}
+.peopleimg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.name{
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.person{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.feed-sec{
+  display: flex;
+  gap: 30px;
+  padding: 10px 0px;
+}
+.feed-tximg{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  cursor: pointer;
+}
+.testimonial{
+  color: black;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding: 50px 0px 0px 0px;
+}

@@ -12,6 +12,9 @@ import img11 from "../img/customers.png"
 // import img12 from '../img/about2.webp'
 import img13 from '../img/familytravel.jpg'
 import img14 from '../img/airports.avif'
+import img15 from '../img/african-woman.avif'
+import img16 from '../img/guy.jpeg'
+import img17 from '../img/lady.jpg'
 
 
 
@@ -29,7 +32,10 @@ const Images = {
     img11,
     // img12
     img13,
-    img14
+    img14,
+    img15,
+    img16,
+    img17
 };
 
 export default Images

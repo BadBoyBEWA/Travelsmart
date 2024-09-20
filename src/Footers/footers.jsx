@@ -4,9 +4,9 @@ import './footers.css'
 
 export default function footers() {
   return (
+   <div className='body-div'>
     <div className='footers'>
         <div className="footers-section-padding">
-
             <div className="footer-links">
                 <div className='footer-images'></div> 
                 <div className='footers-links-div'>
@@ -73,6 +73,7 @@ export default function footers() {
             </div>
           
         </div>
+    </div>
     </div>
   )
 }

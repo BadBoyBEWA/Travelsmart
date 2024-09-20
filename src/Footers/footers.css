@@ -2,6 +2,14 @@
 *{
     font-family: "Poppins" , sans-serif;
 }
+.footer{
+    background-image: url(/public/herosection.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100%;
+    width: 100%;
+}
 .footers-section-padding{
   padding: 4rem , 4rem;
 }
@@ -13,6 +21,18 @@
     color: #000000;
     gap: 18px;
 }
+.body-div{
+    background-image: url(/public/herosection.png);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:30vh;
+    width: 100%;
+    border-radius: 19px;
+    display: flex;
+    padding: 0px 70px;  
+  }
 .footer-links{
  display: flex;
  gap: 230px;
@@ -54,8 +74,10 @@ cursor: pointer;
     display: flex;
     flex-direction: row;
     gap: 200px;
-    margin-left: 120px;
+    margin-left:-40px;
     margin-top: 0.2rem;
+    align-items: center;
+    justify-content: center;
 }
 .footer-below-links{
     display: flex;

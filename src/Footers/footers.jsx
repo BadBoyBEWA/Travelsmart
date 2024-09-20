@@ -8,18 +8,22 @@ import Link from '../Components/Link'
 export default function footers() {
   return (
    <>
-   <div className='footer' style={{backgroundColor: "pink"}}>
-      <div className='footer-text container' style={{backgroundColor: "brown"}}>
-         <div className='footer-colums' style={{backgroundColor: "green"}}>
+   <div className='footer'>
+      <div className='footer-text container'>
+         <div className='footer-colums'>
             <Logo logoimg={Images.img1}/>
-            <div className='foot-fourcolms' style={{backgroundColor: "blue"}}>
-               <div className='first-colm' style={{backgroundColor: "saddlebrown"}}>
+            <div className='foot-fourcolms'>
+               <div className='first-colm'>
                   <Text texts='About' textstyle='footer-about'/>
-                  <Link item1='about' item2='Submit on issue' item3='GitHub Repo' item4='Slack' lists='footer-firstlink'/>
+                  <Link item1='About' item2='Submit on issue' item3='GitHub Repo' item4='Slack' lists='footer-firstlink'/>
                </div>
-               <div className='sec-colm' style={{backgroundColor: "saddlebrown"}}>
-                  <Text texts='About' textstyle='footer-about'/>
-                  <Link item1='Documentaion' item2='Submit on issue' item3='GitHub Repo' item4='Slack' item5="" lists='footer-firstlink'/>
+               <div className='sec-colm'>
+                  <Text texts='Getting  Started' textstyle='footer-about'/>
+                  <Link item1='Introduction' item2='Documentation' item3='Usage' item4='Globals' item5="Elements" item6='Collections' item7='Themes' lists='footer-firstlink'/>
+               </div>
+               <div className='thrd-colm'>
+                  <Text texts='Resources' textstyle='footer-about'/>
+                  <Link item1='API' item2='Form validations Product' item3='Visibility' item4='Accesibility' item5="Community" item6='Design Defined' item7='Marketplace' lists='footer-firstlink'/>
                </div>
             </div>
          </div>

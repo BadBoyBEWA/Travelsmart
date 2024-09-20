@@ -4,7 +4,7 @@ import Logo from '../Components/Logo'
 import Images from '../assets/img'
 import Text from '../Components/Text'
 import Link from '../Components/Link'
-
+import Icons from '../Components/Icons'
 export default function footers() {
   return (
    <>
@@ -25,6 +25,23 @@ export default function footers() {
                   <Text texts='Resources' textstyle='footer-about'/>
                   <Link item1='API' item2='Form validations Product' item3='Visibility' item4='Accesibility' item5="Community" item6='Design Defined' item7='Marketplace' lists='footer-firstlink'/>
                </div>
+               <div className='frth-colm'>
+                  <Text texts='Social Media' textstyle='footer-about'/>
+                  <Text texts='Follow us on social media to find out the latest updates on our progress'  textstyle='footer-social-media'/>
+             <div className='social-icons'>
+               <Icons icon='hugeicons:new-twitter'/>
+                  <Icons icon='mingcute:facebook-line'/>
+                  <Icons icon='ri:instagram-line'/>
+             </div>
+               </div>
+            </div>
+         </div>
+         <div className='footer-fin-txt'>
+            <div><Text texts= '@2024 Travel Smart. All rights reserved'/></div>
+            <div className='footer-small-txt'>
+            <Text texts='Privacy Policy' />
+            <Text texts='Security'/>
+            <Text texts='Sitemap'/>
             </div>
          </div>
       </div>

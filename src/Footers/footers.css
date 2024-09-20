@@ -5,7 +5,7 @@
 .footer-links-div{
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;    
     margin:1rem;
     color: #000000;
     gap: 18px;

@@ -62,7 +62,7 @@ export default function footers() {
         <div className='footer-copyright'>
             <p>@{new Date(). getFullYear()} All rights reserved.
             </p>
-        </div>
+         </div>
         <div className="footer-below-links">
             <a href=""><div><p>Terms of Use</p></div></a>
             <a href=""><div><p>Security</p></div></a>

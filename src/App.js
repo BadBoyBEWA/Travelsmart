@@ -5,11 +5,13 @@ import Buttons from './Components/Buttons';
 import Tripcatalog from './Pages/Tripcatalog';
 import Home from './Components/Home';
 import Aboutus from './Pages/Aboutus';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
     <>
     <BrowserRouter>
+    <Navbar/>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/tripcatalog' element={<Tripcatalog/>}/>

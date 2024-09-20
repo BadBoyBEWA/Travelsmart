@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Menu } from 'lucide-react'; 
+import React from 'react';
+// import { Menu } from 'lucide-react'; 
 import Logo from './Logo';
 import Links from './Links';
 import Images from '../assets/img';
@@ -9,47 +9,50 @@ import Airplane from './Airplane';
 import Footers from '../Footers/footers.jsx';
 import '../App.css';
 // import Aboutus from '../Pages/Aboutus';
+import Navbar from './Navbar.jsx';
 
 
 export default function Home(){
-  const [isScrolled, setIsScrolled] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isScrolled, setIsScrolled] = useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY > 50) {
+  //       setIsScrolled(true);
+  //     } else {
+  //       setIsScrolled(false);
+  //     }
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  // const toggleMenu = () => {
+  //   setIsMenuOpen(!isMenuOpen);
+  // };
   return (
     <div className='whole'>
-      <header>
+<Navbar/>
+
+      {/* <header>
         <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
           <div className="content">
             <Logo logoimg={Images.img1} logotx='logo' logosec='logostyle'/>
-            <Links linkstyle='links' directory1='#homepage' directory2='#about' homelink='active1' link1='Home' link2='About' link3='Contact Us' link4='Tour review'/>
+            <Links linkstyle='links' directory1='#homepage' directory2='#about' homelink='active1' link1='Home' link2='About' link3='Contact Us' link4='Tour review'/> */}
             {/* Mobile Menu Button */}
-            <div className="mobile-only">
+            {/* <div className="mobile-only">
               <button className="menu-button" onClick={toggleMenu}>
                 <Menu className="menu-icon" />
               </button>
             </div>
           </div>
         </nav>
-      </header>
+      </header> */}
 
       <section className='container' id='homepage'>
         <div className='herosec'>

@@ -6,6 +6,7 @@ import Images from '../assets/img';
 import Text from './Text';
 import Buttons from './Buttons';
 import Airplane from './Airplane';
+import Footers from '../Footers/footers.jsx';
 import '../App.css';
 // import Aboutus from '../Pages/Aboutus';
 
@@ -73,6 +74,7 @@ export default function Home(){
           </div>
           </div>
       </section>
+      <Footers/>
     </div>
   )
-}
+};

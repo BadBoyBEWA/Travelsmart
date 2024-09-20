@@ -1,13 +1,9 @@
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-// import { Route, Routes } from "react-router-dom";
-import Logo from './Components/Logo';
-import Links from './Components/Links';
-import Images from './assets/img';
-import Text from './Components/Text';
 import Buttons from './Components/Buttons';
 import Airplane from './Components/Airplane';
-import Footers from './Footers/footers';
-
+import footers from './Footers/footers';
 function App() {
   return (
     <>
@@ -43,8 +39,6 @@ function App() {
         </div>
     </section>
     </div>
-    
-  <Footers />
     </>
   );
 }

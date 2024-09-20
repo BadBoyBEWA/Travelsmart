@@ -30,7 +30,7 @@ export default function footers() {
                     <p>Attractions</p>
                  </a>
                  <a href="">
-                    <p>Pricing Details</p>
+                    <p>Package Tours</p>
                  </a>
                  <a href="">
                     <p>Accomodations</p>

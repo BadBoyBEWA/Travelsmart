@@ -7,8 +7,6 @@ import Images from '../assets/img'
 import Link from '../Components/Link'
 import Buttons from '../Components/Buttons'
 import Home from '../Components/Home'
-import Feedback from '../Components/Feedback'
-import Icons from '../Components/Icons'
 
 export default function Aboutus() {
   return (

@@ -27,19 +27,22 @@ header{
   align-items: center;
   justify-content: center;
 }
-header nav{
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: space-between;
+.navbar{
   position: fixed; 
+  padding: 20px;
+  z-index: 50;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  right: 0;
 }
-.slide-down{
-  transform: translateY(0px);
-  background-color: #fff;
-}
-.slide-up {
-  transform: translateY(-60px);
+.navbar>.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 85%;
 }
 .container{
   margin: 0 auto;
@@ -213,6 +216,7 @@ ul li a{
   background: linear-gradient(to right, #2189ff, #5AA6FF);
   padding: 8px 30px;
 }
+
 .explink{
   text-decoration: none;
   color: white;
@@ -426,63 +430,24 @@ ul li a{
   color: #474747;
   text-align: center;
 }
-.peoples-feedback{
-  padding: 20px;
-  box-shadow: 1px 2px 7px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.navbar.scrolled {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.peoples-feedback:hover{
-  transform: scale(1.06);
-  transition: all .4s ease-in-out;
-  box-shadow: 1px 2px 7px 2px rgba(0, 0, 0, 0.3);
-}
-.staricons{
-  display: flex;
-  color: #0075FF;
-}
-.feedback{
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-}
-.peopleimg{
-  width: 50px;
-  height: 50px;
-}
-.peopleimg img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-}
-.name{
-  font-size: 17px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-}
-.person{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.feed-sec{
-  display: flex;
-  gap: 30px;
-  padding: 10px 0px;
-}
-.feed-tximg{
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+
+/* Mobile Menu Button */
+.menu-button {
+  background: none;
+  border: none;
   cursor: pointer;
 }
-.testimonial{
-  color: black;
-  font-size: 25px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  text-align: center;
-  padding: 50px 0px 0px 0px;
+.mobile-only{
+  display: none;
 }
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  color: #333;
+}
+

@@ -27,19 +27,22 @@ header{
   align-items: center;
   justify-content: center;
 }
-header nav{
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: space-between;
+.navbar{
   position: fixed; 
+  padding: 20px;
+  z-index: 50;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  right: 0;
 }
-.slide-down{
-  transform: translateY(0px);
-  background-color: #fff;
-}
-.slide-up {
-  transform: translateY(-60px);
+.navbar>.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 85%;
 }
 .container{
   margin: 0 auto;
@@ -417,4 +420,24 @@ ul li a{
   font-weight: 400;
   font-size: 17px;
   text-align: center;
+}
+.navbar.scrolled {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile Menu Button */
+.menu-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.mobile-only{
+  display: none;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  color: #333;
 }

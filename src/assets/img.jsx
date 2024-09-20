@@ -10,6 +10,8 @@ import img9 from "../img/Frame 26.png"
 import img10 from "../img/Airplane-removebg.png"
 import img11 from "../img/customers.png"
 // import img12 from '../img/about2.webp'
+import img13 from '../img/familytravel.jpg'
+import img14 from '../img/airports.avif'
 
 
 
@@ -26,6 +28,8 @@ const Images = {
     img10,
     img11,
     // img12
+    img13,
+    img14
 };
 
 export default Images

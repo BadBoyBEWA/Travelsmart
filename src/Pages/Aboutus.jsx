@@ -31,7 +31,7 @@ export default function Aboutus() {
           <div className='choose'>
             <Text texts='Why Choose Travel Smart' textstyle='why-choose'/>
             <Text textstyle='why-choosetx' texts='We know that travel planning can be overwhelming, which is why we offer a single platform for all your travel needs. `Whether you"re looking for attractions, hotels, dining options, or local culture, Travel Smart brings everything to your fingertips.'/>
-            <Link icon='mdi:plane' lists='chooselink' item1='Comprehensive destination guides.' item2='Compare flights, trains, buses, and car rentals.' item3='Access to handpicked hotels, tours, and dining recommendations.' item4='Save time and money by finding everything in one place.'/>
+            <Link icon2='gravity-ui:car'  icon='material-symbols:developer-guide-outline' icon3='material-symbols:bed-outline' icon4='solar:wallet-money-outline' lists='chooselink' item1='Comprehensive destination guides.' item2='Compare flights, trains, buses, and car rentals.' item3='Access to handpicked hotels, tours, and dining recommendations.' item4='Save time and money by finding everything in one place.'/>
           </div>
         </div>
 
@@ -41,7 +41,7 @@ export default function Aboutus() {
         </div>
         <div className='works'>
           <div className='howworks'>
-            <Link icon='mdi:plane' lists='chooselink2' step1='Step1: ' step2='Step2: ' step3='Step3: ' step4='Step4: ' steps='steps' item1='Search for your destination and explore in-depth guides on top attractions, culture, and dining.' item2='Compare and book flights, trains, buses, or car rentals for the best travel options.' item3='Discover the best hotels and unique stays that match your travel style and budget.' item4='Find guided tours or self-planned excursions for a personalized experience'/>
+            <Link icon='hugeicons:plane' icon2='gravity-ui:car' icon3='material-symbols:bed-outline' icon4='material-symbols:developer-guide-outline' lists='chooselink2' step1='Step1: ' step2='Step2: ' step3='Step3: ' step4='Step4: ' steps='steps' item1='Search for your destination and explore in-depth guides on top attractions, culture, and dining.' item2='Compare and book flights, trains, buses, or car rentals for the best travel options.' item3='Discover the best hotels and unique stays that match your travel style and budget.' item4='Find guided tours or self-planned excursions for a personalized experience'/>
           </div>
           <div className='howpic'>
           <Airplane airimg={Images.img14}/>

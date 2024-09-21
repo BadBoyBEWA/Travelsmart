@@ -44,7 +44,7 @@ export default function footers() {
             <Text texts='Security'/>
             <Text texts='Sitemap'/>
             </div>
-            <Logo logosec='footer-logo' logoimg={Images.img1}/>
+            <Logo  logosec='footer-logo' logoimg={Images.img1}/>
          </div>
       </div>
    </div>

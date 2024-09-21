@@ -557,18 +557,16 @@ ul li a{
 .frth-colm{
   display: flex;
   flex-direction: column;
-  gap: 20px;
-}
-.frth-colm{
-  padding: 10px;
-  width: fit-content;
+  align-items: right;
+  text-align: right;
+  justify-content: right;
+  gap: 15px;
 }
 .footer-social{
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: #fff;
-  width: fit-content;
 }
 .footer-social-media{
   color: #fff;
@@ -578,6 +576,8 @@ ul li a{
 }
 .social-icons{
   display: flex;
+  align-items: right;
+  justify-content: right;
   gap: 15px; 
 }
 .footer-fin-txt{
@@ -603,7 +603,6 @@ ul li a{
 }
 .footer{
   background-color: #0075FF;
-  height: 470px;
 }
 
 .line{
@@ -613,6 +612,9 @@ ul li a{
   background-color: #fff;
   height: 1px;
 }
+.socials-icon{
+  color: white;
+}
 .footer-logo{
   width: 120px;
   height: 100%;
@@ -620,6 +622,7 @@ ul li a{
 .footer-logo img{
   width: 100%;
   height: 100%;
+  filter: brightness(0) invert(1);
   object-fit: cover;
 }
 .mobile{

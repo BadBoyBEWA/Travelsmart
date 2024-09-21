@@ -27,9 +27,9 @@ export default function footers() {
                   <Text texts='Social Media' textstyle='footer-social'/>
                   <Text texts='Follow us on social media to find out the latest updates on our progress'  textstyle='footer-social-media'/>
              <div className='social-icons'>
-               <Icons icon='hugeicons:new-twitter'/>
-                  <Icons icon='mingcute:facebook-line'/>
-                  <Icons icon='ri:instagram-line'/>
+               <Icons icon='hugeicons:new-twitter' iconstyle='socials-icon'/>
+                  <Icons icon='mingcute:facebook-line' iconstyle='socials-icon'/>
+                  <Icons icon='ri:instagram-line' iconstyle='socials-icon'/>
              </div>
                </div>
             </div>

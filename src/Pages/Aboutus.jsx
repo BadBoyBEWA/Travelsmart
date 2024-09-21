@@ -98,7 +98,7 @@ export default function Aboutus() {
             <Text textstyle='plan-head' texts='Start Planning Your Next Adventure'/>
           </div>
           <div className='plan-btn-tx'>
-          <Buttons buttx='Explore Destinations' butstyle='planbtn' butlink='planlink' triplink='./tripcatalog'/>
+          <Buttons buttx='Explore Destinations' butstyle='planbtn' butlink='planlink' triplink='/tripcatalog'/>
           <Text textstyle='plantx' texts='Find the perfect hotel, flight, or tour with just a few clicks.'/>
           </div>
         </div>

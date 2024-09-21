@@ -47,6 +47,7 @@
 .tabs {
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
     padding: 0px 0px 20px 0px ;
 }  
 .tabs button {
@@ -157,10 +158,10 @@
 }
 /* TourList.css */
 .tour-list {
-    max-width: 1000px;
+    /* max-width: 1000px; */
     margin: 0 auto;
     padding: 20px;
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   
   h1 {

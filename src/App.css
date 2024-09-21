@@ -526,12 +526,12 @@ ul li a{
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
-  color: #474747;
+  color: #fff;
   padding: 0px 0px 0px 9px;
 }
 .footer-firstlink{
   list-style-type: none;
-  color: #474747;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight:500 ;
@@ -567,26 +567,23 @@ ul li a{
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
-  color: #474747;
+  color: #fff;
   width: fit-content;
 }
 .footer-social-media{
-  color: #474747;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight:500;
 }
 .social-icons{
   display: flex;
-  gap: 15px;
-}
-.footer{
-  box-shadow: 5px 0px 7px 3px rgba(0,0,0,0.2);
+  gap: 15px; 
 }
 .footer-fin-txt{
   display: flex;
   flex-wrap: wrap;
-  color: #474747;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight:500;
@@ -595,7 +592,7 @@ ul li a{
 .footer-small-txt{
   display: flex;
   flex-wrap: wrap;
-  color: #474747;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight:500;
@@ -604,11 +601,16 @@ ul li a{
 .footer-text{
   padding: 30px 0px 15px 0px;
 }
+.footer{
+  background-color: #0075FF;
+  height: 470px;
+}
+
 .line{
   padding: 20px 0px 20px 0px;
 }
 .hr{
-  background-color: #474747;
+  background-color: #fff;
   height: 1px;
 }
 .footer-logo{
@@ -649,8 +651,6 @@ ul li a{
   gap: 20px;
   list-style-type: none;
 }
-
-
 
 /* Responsive layout: for footer*/
 @media (max-width: 1024px) {
@@ -702,5 +702,9 @@ ul li a{
   .foot-fourcolms{
       grid-template-columns: repeat(2, 1fr);
       align-items: center;
+  }
+  .footer{
+    background-color: #0075FF;
+    height: 105vh;
   }
 }

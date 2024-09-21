@@ -6,7 +6,7 @@ import Tripcatalog from './Pages/Tripcatalog';
 import Home from './Components/Home';
 import Aboutus from './Pages/Aboutus';
 import Navbar from './Components/Navbar';
-
+import Footers from './Footers/footers'
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
       <Route path='/buttons' element={<Buttons/>}/>
       <Route path='/explore' element={<Aboutus/>}/>
     </Routes>
+    <Footers/>
     </BrowserRouter>
     </>
   );

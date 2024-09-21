@@ -463,6 +463,7 @@ ul li a{
   display: flex;
   flex-direction: column;
   gap: 10px;
+  flex-wrap: wrap;
 }
 .peoples-feedback:hover{
   transform: scale(1.06);

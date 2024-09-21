@@ -603,7 +603,7 @@ ul li a{
 }
 .footer{
   background-color: #0075FF;
-  height: 480px;
+  height: 470px;
 }
 
 .line{
@@ -702,5 +702,9 @@ ul li a{
   .foot-fourcolms{
       grid-template-columns: repeat(2, 1fr);
       align-items: center;
+  }
+  .footer{
+    background-color: #0075FF;
+    height: 105vh;
   }
 }

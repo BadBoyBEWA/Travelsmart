@@ -555,9 +555,6 @@ ul li a{
   display: flex;
   gap: 15px;
 }
-.footer{
-  
-}
 .footer-fin-txt{
   display: flex;
   flex-wrap: wrap;

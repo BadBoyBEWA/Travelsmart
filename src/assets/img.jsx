@@ -15,6 +15,8 @@ import img14 from '../img/airports.avif'
 import img15 from '../img/african-woman.avif'
 import img16 from '../img/guy.jpeg'
 import img17 from '../img/lady.jpg'
+import img18 from '../img/airports2.jpg'
+import img19 from '../img/woman2.jpeg'
 
 
 
@@ -35,7 +37,9 @@ const Images = {
     img14,
     img15,
     img16,
-    img17
+    img17,
+    img18,
+    img19
 };
 
 export default Images

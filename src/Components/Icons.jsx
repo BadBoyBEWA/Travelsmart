@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Icons({icon}) {
+export default function Icons({icon, iconstyle}) {
   return (
-    <div className='icon'>
+    <div className={iconstyle}>
         <iconify-icon icon={icon}></iconify-icon>
     </div>
   )

@@ -1,0 +1,107 @@
+{
+    "destinations": [
+      { "id": 1, 
+        "name":"Paris", 
+        "country": "France", 
+        "description": "The City of Light", 
+        "images": [], 
+        "price": 1500
+      },
+      { "id": 2, 
+        "name": "Tokyo",  
+        "country": "Japan",
+        "description": "A vibrant metropolis that mixes ultramodern and traditional elements.",
+        "images": [],
+        "price": 2000
+      },
+      {
+        "id": 3,
+        "name": "New York City",
+        "country": "USA",
+        "description": "The Big Apple, a global hub of art, culture, fashion, and finance.",
+        "images": [],
+        "price": 1800
+      },
+      {"id": 4,
+        "name": "Rome",
+        "country": "Italy",
+        "description": "The Eternal City, filled with ancient history and modern vibrancy.",
+        "images": [],
+        "price": 1600
+      },
+      {"id": 5,
+        "name": "Bali",
+        "country": "Indonesia",
+        "description": "A tropical paradise known for its lush landscapes and rich culture.",
+        "images": [],
+        "price": 1200
+      },
+      {"id": 6,
+        "name": "Barcelona",
+        "country": "Spain",
+        "description": "A city of art, architecture, and vibrant street life.",
+        "images": [],
+        "price": 1400
+      },
+      {
+        "id": 7,
+        "name": "Sydney",
+        "country": "Australia",
+        "description": "A stunning harbor city with iconic landmarks and beautiful beaches.",
+        "images": [],
+        "price": 2200
+      },
+      {
+        "id": 8,
+        "name": "Cairo",
+        "country": "Egypt",
+        "description": "An ancient city with a rich history and iconic pyramids.",
+        "images": [],
+        "price": 1100
+      },
+      {"id": 9,
+        "name": "Rio de Janeiro",
+        "country": "Brazil",
+        "description": "A vibrant city known for its beaches, carnival, and iconic Christ the Redeemer statue.",
+        "images": [],
+        "price": 1700
+      }
+    ],
+
+    "packageTours": [
+      { "id": 1, 
+        "name": "European Delight", 
+        "sub": "Romantic Getaway", 
+        "description": "Experience the romance of Europe", 
+        "duration": "5 days", 
+        "startDate": "2024-06-15",   
+        "price": 2000, 
+        "discount": "10%",
+        "images": ["/images/europe.jpg"]
+      },
+
+      { "id": 2, 
+        "name": "Asian Adventure", 
+        "sub": "Etheral Getaway", 
+        "description": "Experience Mother Nature", 
+        "duration": "5 days", 
+        "startDate": "2024-07-15",   
+        "price": 2500, 
+        "discount": "20%",
+        "images": ["/images/asia.jpg"]
+      }
+    ],
+    "activities": [
+      { "id": 1, "name": "Skydiving" },
+      { "id": 2, "name": "Surfing" }
+    ],
+    "accommodations": [
+      { "id": 1, "name": "Hotel A" },
+      { "id": 2, "name": "Hotel B" }
+    ],
+    "transportOptions": [
+      { "id": 1, "name": "Bus" },
+      { "id": 2, "name": "Train" }
+    ]
+  }
+  

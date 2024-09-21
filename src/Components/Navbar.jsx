@@ -26,7 +26,7 @@ export default function Navbar() {
   
     const toggleMenu = () => {
       setIsMenuOpen(!isMenuOpen);
-    };
+    }
 
   return (
     <header>
@@ -40,6 +40,11 @@ export default function Navbar() {
                 <Menu className="menu-icon" />
               </button>
             </div>
+            {isMenuOpen && (
+        <div className={`mobile-menu ${isMenuOpen ? 'open' : 'closed'}`}>
+          <Links linkstyle="mobile-links" home="/" about="/explore" link1="Home" link2="About" link3="Contact Us" link4="Tour review" />
+        </div>
+      )}
           </div>
         </nav>
       </header>

@@ -6,7 +6,8 @@ import Tripcatalog from './Pages/Tripcatalog';
 import Home from './Components/Home';
 import Aboutus from './Pages/Aboutus';
 import Navbar from './Components/Navbar';
-import Footers from './Footers/footers'
+import Footer from "./Footers/footers.jsx"
+
 function App() {
   return (
     <>
@@ -17,8 +18,9 @@ function App() {
       <Route path='/tripcatalog' element={<Tripcatalog/>}/>
       <Route path='/buttons' element={<Buttons/>}/>
       <Route path='/explore' element={<Aboutus/>}/>
+      {/* <Route path='/footer' element={<Footer/>}/> */}
     </Routes>
-    <Footers/>
+    < Footer/>
     </BrowserRouter>
     </>
   );

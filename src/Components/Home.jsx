@@ -1,12 +1,12 @@
 import React from 'react';
 // import { Menu } from 'lucide-react'; 
 import Logo from './Logo';
-import Links from './Links';
+// import Links from './Links';
 import Images from '../assets/img';
 import Text from './Text';
 import Buttons from './Buttons';
 import Airplane from './Airplane';
-import Footers from '../Footers/footers.jsx';
+// import Footers from '../Footers/footers.jsx';
 import '../App.css';
 // import Aboutus from '../Pages/Aboutus';
 import Navbar from './Navbar.jsx';
@@ -41,7 +41,7 @@ export default function Home(){
           </div>
         </div>
       </section>
-      <Footers/>
+      {/* <Footers/> */}
     </div>
     </>
   )

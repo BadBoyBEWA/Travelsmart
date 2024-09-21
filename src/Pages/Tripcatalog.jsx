@@ -93,7 +93,7 @@ const TripCatalog = () => {
             {filteredDestinations.map((destinations, idx) => {
                 const {id , name, sub, description,price,images} = destinations
                 return(
-                  <div key={id} style={{background:" linear-gradient(to right, #0075FF , #5AA6FF)", padding:"30px", borderRadius:"20px", border:"none", marginTop:"20px",}}>
+                  <div key={id} style={{padding:"30px", borderRadius:"20px", border:"none", marginTop:"20px", boxShadow: "3px 6px 7px 2px rgba(0, 0, 0, 0.2)"}}>
                     <div>
                       <div>
                         {/* <img src={images} alt={"Europe"} style={{width:"40%" , borderRadius:"10px"}} /> */}
@@ -111,7 +111,7 @@ const TripCatalog = () => {
                       <p>{sub}</p>
                       <i>{description}</i>
                       <h4>${price}</h4>
-                      <button onClick={() => openSelectedTrip(idx )} style={{backgroundColor:" black", marginTop:"20px",width:"50%",padding:"20px", borderRadius:"20px", border:"none", color:"white"}}>View Details</button>
+                      <button onClick={() => openSelectedTrip(idx )} style={{background:"linear-gradient(to right, #0075FF , #5AA6FF)", marginTop:"20px",width:"50%",padding:"20px", borderRadius:"20px", border:"none", color:"white"}}>View Details</button>
                     </div>
                   </div>
                 )
@@ -125,7 +125,7 @@ const TripCatalog = () => {
               {filteredPackageTours.map((packageTour, idx) => {
                 const {id , name, sub, description,price,images} = packageTour
                 return(
-                  <div key={id} style={{background:" linear-gradient(to right, #0075FF , #5AA6FF)", padding:"30px", borderRadius:"20px", border:"none", marginTop:"20px",}}>
+                  <div key={id} style={{ padding:"30px", borderRadius:"20px", border:"none", marginTop:"20px", boxShadow: "3px 6px 7px 2px rgba(0, 0, 0, 0.2)"}}>
                     <div>
                       <div>
                         {/* <img src={images} alt={"Europe"} style={{width:"40%" , borderRadius:"10px"}} /> */}

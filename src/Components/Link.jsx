@@ -29,21 +29,12 @@ export default function Link({icon, step1, steps, step2, step3, step4, item1, it
             <li><span className={steps}>{step4}</span>{item4}</li>
         </div>
         <div className='iconlist'>
-            <div className='plane'>
-                <Icons icon={icon4}/>
-            </div>
             <li>{item5}</li>
         </div>
         <div className='iconlist'>
-            <div className='plane'>
-                <Icons icon={icon4}/>
-            </div>
             <li>{item6}</li>
         </div>
         <div className='iconlist'>
-            <div className='plane'>
-                <Icons icon={icon4}/>
-            </div>
             <li>{item7}</li>
         </div>
     </ul>

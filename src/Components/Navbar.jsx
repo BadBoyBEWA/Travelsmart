@@ -33,7 +33,7 @@ export default function Navbar() {
         <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
           <div className="content">
             <Logo logoimg={Images.img1} logotx='logo' logosec='logostyle'/>
-            <Links linkstyle='links' home='/' about='/explore' link1='Home' link2='About' link3='Contact Us' link4='Tour review'/>
+            <Links linkstyle='links' tour='/explore' home='/' about='/explore' link1='Home' link2='About' link3='Contact Us' link4='Tour Review'/>
             {/* Mobile Menu Button */}
             <div className="mobile-only">
               <button className="menu-button" onClick={toggleMenu}>

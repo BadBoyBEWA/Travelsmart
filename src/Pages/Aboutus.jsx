@@ -44,7 +44,7 @@ export default function Aboutus() {
             <Link icon='hugeicons:plane' icon2='gravity-ui:car' icon3='material-symbols:bed-outline' icon4='material-symbols:developer-guide-outline' lists='chooselink2' step1='Step1: ' step2='Step2: ' step3='Step3: ' step4='Step4: ' steps='steps' item1='Search for your destination and explore in-depth guides on top attractions, culture, and dining.' item2='Compare and book flights, trains, buses, or car rentals for the best travel options.' item3='Discover the best hotels and unique stays that match your travel style and budget.' item4='Find guided tours or self-planned excursions for a personalized experience'/>
           </div>
           <div className='howpic'>
-          <Airplane airimg={Images.img14}/>
+          <Airplane airimg={Images.img18}/>
           </div>
         </div>
         <div className='promise-sec'>
@@ -62,7 +62,7 @@ export default function Aboutus() {
                 <Icons icon='mdi:star'/>
               </div>
               <Feedback feedstyle='feedback' feedback='"Travel Smart made my entire trip planning process so much easier! I found everything I needed in one place, from hotels to car rentals, and even a few hidden gems in local dining. Their recommendations were spot-on, and I saved both time and money. I’ll definitely be using them for all my future trips!"'
-              people={Images.img15} personname='name' peoplenames='Sarah L, California'/>  
+              people={Images.img19} personname='name' peoplenames='Sarah L, California'/>  
             </div>
 
             <div className='peoples-feedback'>
